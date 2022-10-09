@@ -35,21 +35,37 @@ After creating a MeterMate file for the customer, this tool will take the MeterM
 The user will then make selections, and review them. After review, they will be prompted to export the selection, which will write them to a copy of the Y84000-PTR [Appendix.Y8](#appendix), which will populate the relevent sheets with the selections. 
 
 
-## Usage
+# Usage
 
 For the application to run properly, you must have:
 -  the executable downloaded on your machine (currently called `Meter NIC Reading Selector.exe`)
 - a `config/` folder in the same directory as the executable. Please see the [Setup](#setup) section to correctly configure this folder before running the tool.
 
-**Once you are positive that you have completed the [Setup](#setup) section correctly, follow these steps:**
+**Once you are positive that you have completed the [Setup](#setup) section correctly, open the executable**
 
-1. Make sure you have an updated version of the Y84000-PTR [Appendix.Y8](#appendix) downloaded at a convenient location on your machine. If not, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
+After opening the executable, you will be prompted to import files. After importing, a window will be open up to allow you to select readings. After selecting readings, you can review the selections and export them. The steps below will walk you through this process:
 
-2. Obtain a MeterMate program [Appendix.MM](#appendix) and make sure it is downloaded at a convenient location on your machine. If not, see [Getting the MeterMate Program](#getting-the-metermate-program).
+1. Import the Y84000-PTR. If you have not already, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
 
-3. Once you have these files and you are absolutely certain that the [Setup](#setup) as been performed correctly, simply run the executable.
+2. Import the MeterMate file. If you have not already, see [Getting the MeterMate Program](#getting-the-metermate-program).
 
-4. For any errors experienced during runtime, see [Handling Errors](#handling-errors). 
+3. If needed, import updated reading types. If you have not already, see [Getting the Reading Types](#getting-the-reading-types).
+
+4. Press `Proceed` to continue, and indicate weather or not Time of Use (TOU) is enabled.
+
+5. If everything is configured correctly, a new window will be opened. This window will allow you to select readings.
+
+6. Notice that there are 4 tabs at the top of the window. These tabs are for selecting for Bulk Quantity, Indicating, and Demand readings, respectively. The last tab is for reviewing the selections and exporting. 
+
+7. In each of the first 3 tabs, you will see a list of readings. These readings are the supported readings for the MeterMate file you imported. `Reading names in gold are considered 'popular'`. If you want to select a reading, simply click it and indicate which ____TODO selections? you want.
+
+8. Once you have made your selections, you can review them by clicking the last tab. Here, you will see a list of all the selections you have made. If you want to make changes or remove a reading, double-click the the reading to take you back to the tab where you can make changes.
+
+9. Once all selecitons on the `Review` tab are desired, click `Export`. This will write the selections to a copy of the Y84000-PTR [Appendix.Y8](#appendix) that you imported. The tool will prompt you with where to save this copy.
+
+10. Once you have saved the copy, you can close the tool. Note that once it is closed, you will have to repeat the process from the beginning if you want to make more selections. It is more practical to make changes in the generated Y84000-PTR [Appendix.Y8](#appendix) copy, if the needed changes are minimal.
+
+For any errors that occur, please see the [Troubleshooting](#troubleshooting) section.
 
 ## Setup
 
@@ -123,7 +139,7 @@ If one of these is true, locate the `config.json` file in the  `config/` directo
 ```
 
 
-## Error Handling
+## Troubleshooting
 
 During the execution of the program, there are several instances where an error can occur. Here is a list of potential errors, and steps to take to possibly fix them.
 
@@ -169,6 +185,8 @@ SS | **Supported Readings Schema** - Schema used to validate Appendix.SR
 
 ## Getting Updated Reading Types
 
+This outlines how to acquire [Appendix.RT](#appendix).
+
 This should only be done if there has been an update to the reading types sooner that what is listed in the tool or in `config/hidden_data/ReadingsMap-xxxxxx.json`.
 
 To get updated reading types, you must download an Excel file from Fusion, and convert it to an XML file. The steps to do this are described below.
@@ -184,6 +202,8 @@ To get updated reading types, you must download an Excel file from Fusion, and c
 
 ## Getting the Y84000-PTR Tool
 
+This outlines how to acquire [Appendix.Y8](#appendix).
+
 This should only be done if you need an updated version of the `Y84000-PTR | SRFN XML Configuration Creation Tool [REV:R]`, which must be imported to properly run the tool. 
 
 1. Open the Fusion Item `Y84000-PTR | SRFN XML Configuration Creation Tool [REV:R]` ([link](https://aclara.autodeskplm360.net/workspace#workspaceid=57&dmsid=5165571&tab=partattachment))
@@ -192,6 +212,8 @@ This should only be done if you need an updated version of the `Y84000-PTR | SRF
 
 
 ## Getting the MeterMate Program
+
+This outlines how to acquire [Appendix.MM](#appendix).
 
 This should be done every time the tool is run, as this must be imported. 
 
