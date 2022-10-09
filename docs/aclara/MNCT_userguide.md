@@ -30,9 +30,9 @@ I greatly appreciate your patience and understanding, and I hope to eventually p
 
 This tool attempts to address the shortcomings and complications that come with the process of configuring a customer's endpoint, specifically the process of selecting _________ for readings that the customer wants included in their endpoint.
 
-After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool`. Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select ______ for only the readings indicated by these calculations. 
+After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool` [Appendix.Y8](#appendix). Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select ______ for only the readings indicated by these calculations. 
 
-The user will then make selections, and review them. After review, they will be prompted to export the selection, which will write them to a copy of the `Y84000-PTR | SRFN XML Configuration Creation Tool`, which will populate the relevent sheets with the selections. 
+The user will then make selections, and review them. After review, they will be prompted to export the selection, which will write them to a copy of the Y84000-PTR [Appendix.Y8](#appendix), which will populate the relevent sheets with the selections. 
 
 
 ## Usage
@@ -43,9 +43,9 @@ For the application to run properly, you must have:
 
 **Once you are positive that you have completed the [Setup](#setup) section correctly, follow these steps:**
 
-1. Make sure you have an updated version of the `Y84000-PTR | SRFN XML Configuration Creation Tool [REV:R]` downloaded at a convenient location on your machine. If not, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
+1. Make sure you have an updated version of the Y84000-PTR [Appendix.Y8](#appendix) downloaded at a convenient location on your machine. If not, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
 
-2. Obtain a MeterMate program `file ____TODO` and make sure it is downloaded at a convenient location on your machine. If not, see [Getting the MeterMate Program](#getting-the-metermate-program).
+2. Obtain a MeterMate program [Appendix.MM](#appendix) and make sure it is downloaded at a convenient location on your machine. If not, see [Getting the MeterMate Program](#getting-the-metermate-program).
 
 3. Once you have these files and you are absolutely certain that the [Setup](#setup) as been performed correctly, simply run the executable.
 
@@ -89,8 +89,6 @@ If one of these is true, locate the `config.json` file in the  `config/` directo
     - 'dsBuReadingTypes' # Where the DailyShift messages are written
     - 'drReadList' # Where the DailyRead messages are written
     - 'orReadList' # Where the OnRead messages are written
-
-'VERSION' # The current version of the tool
 
 'READINGS_MAP_FN_FORMAT' # The format of the filename for the .json file that contains a map of all reading type data (%Y = year, %m = month, %d = day)
 
