@@ -1,3 +1,0 @@
-Figure out a really simple theme and have markdown files be landing spots
-
-have docs folder that has alcara readme and make sure that it is the only thing accessible from that page

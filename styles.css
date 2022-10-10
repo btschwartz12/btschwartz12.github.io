@@ -1,0 +1,38 @@
+h1 {
+  color: #ff0000;
+}
+
+h2 {
+  color: #0000FF;
+}
+
+h3 {
+  color: #00FF00;
+}
+
+body {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+a:link {
+  color: rgb(9, 121, 250);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(208, 60, 245);
+}
+
+input
+{
+    color: white;
+    background: rgb(82, 82, 82);
+    border: white;
+}
+
+textarea {
+  overflow-y: scroll;
+  height: 100px;
+  /* resize: none; Remove this if you want the user to resize the textarea */
+}
