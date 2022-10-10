@@ -1,8 +1,3 @@
----
-title: special title
-url: www.example.com
----
-
 # **Meter NIC Config Tool User Guide v1.0.0**
 
 This simple application will allow a user to select ____TODO (DailyRead, DailyShift, OnRead) for readings supported by the endpoint, and feed them into an instance of the `Y84000-PTR | SRFN XML Configuration Creation Tool`.
