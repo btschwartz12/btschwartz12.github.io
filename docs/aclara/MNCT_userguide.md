@@ -1,13 +1,6 @@
----
-title: Contents
-weight: 2
-type: contents
-class: brief
----
-
 # **Meter NIC Config Tool User Guide v1.0.0**
 
-This simple application will allow a user to select __________ (DailyRead, DailyShift, OnRead) for readings supported by the endpoint, and feed them into an instance of the `Y84000-PTR | SRFN XML Configuration Creation Tool`.
+This simple application will allow a user to select ____TODO (DailyRead, DailyShift, OnRead) for readings supported by the endpoint, and feed them into an instance of the `Y84000-PTR | SRFN XML Configuration Creation Tool`.
 
 ## Notice
 
@@ -28,9 +21,9 @@ I greatly appreciate your patience and understanding, and I hope to eventually p
 
 # Tool Overview
 
-This tool attempts to address the shortcomings and complications that come with the process of configuring a customer's endpoint, specifically the process of selecting _________ for readings that the customer wants included in their endpoint.
+This tool attempts to address the shortcomings and complications that come with the process of configuring a customer's endpoint, specifically the process of selecting ____TODO for readings that the customer wants included in their endpoint.
 
-After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool` [Appendix.Y8](#appendix). Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select ______ for only the readings indicated by these calculations. 
+After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool` [Appendix.Y8](#appendix). Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select ____TODO for only the readings indicated by these calculations. 
 
 The user will then make selections, and review them. After review, they will be prompted to export the selection, which will write them to a copy of the Y84000-PTR [Appendix.Y8](#appendix), which will populate the relevent sheets with the selections. 
 
@@ -70,7 +63,7 @@ For any errors that occur, please see the [Troubleshooting](#troubleshooting) se
 ## Setup
 
 For the application to be run properly, the location of the executable **must** have the structure below. Note that the `hidden_data/` folder is optional, and if it is not included it will be generated at runtime. (It's a lot faster if you do include it)
-
+____TODO how much of hidden data do we have to show
 ```
 ├── Meter NIC Reading Selector.exe
 └── config/
@@ -80,7 +73,7 @@ For the application to be run properly, the location of the executable **must** 
         └── log.txt (OPTIONAL)
 ```
 
-Please see the below section to determine if you need to make changes to the config file. (____TODO file)
+Please see the below section to determine if you need to make changes to `config.json`, which must be in the same directory as the executable.
 
 ### `config.json`
 
@@ -157,7 +150,7 @@ Error Code | Description | Potential Fixes
 0x502 | There was an error trying to download the Reading Types schema [(Appendix.RS)](#appendix) | This is not a simple fix. Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
 0x503 | There was an error that occurred while trying to download the Supported Readings schema [(Appendix.SS)](#appendix) | This is not a simple fix. Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
 0x504 | There was an error that occurred while trying to download the generated Supported Readings [(Appendix.SR)](#appendix) | This is not a simple fix. Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
-0x900 | There was an error parsing the configuration files, specifically the initialization of a data structure the tool uses throughout runtime. | Ensure that the config files are set correctly (____TODO link to setup).<br/><br/>This is a fatal error if the problem persists. Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
+0x900 | There was an error parsing the configuration files, specifically the initialization of a data structure the tool uses throughout runtime. | Ensure that the config files are set correctly. See [Setup](#setup).<br/><br/>This is a fatal error if the problem persists. Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
 0x901 | There was an error with the tool’s GUI. This is fatal. | Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
 0x904 | There was an error loading the supported readings from `File E` into the GUI. This is fatal. | Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
 0x905 | There was an error with the tool’s GUI and ability to update the counts of the selections. This is fatal. | Please contact the developer and provide the log file ([Appendix.LG](#appendix)).
@@ -173,7 +166,7 @@ In this document and in the tool, specific files will be referenced. To avoid co
 Term | Definition
 --- | ---
 Y8 | **Y84000-PTR \| SRFN XML Configuration Creation Tool** - The excel tool that dictates which readings are supported for the endpoint, and the landing spot for user selections. See [Getting the Y84000-PTR Tool.](#getting-the-y84000-ptr-tool) 
-MM | **MeterMate Program** - The MeterMate XML file ____TODO. See [Getting the MeterMate Program](#getting-the-metermate-program).
+MM | **MeterMate Program** - The MeterMate XML file for the customer. See [Getting the MeterMate Program](#getting-the-metermate-program).
 RT | **Reading Types** - The file that contains every possible reading type that can be supported by any enpoint. Is an XML file that comtains >15000 readings from the HEEP. See [Getting Updated Reading Types](#getting-updated-reading-types).
 RM | **Readings Map** - Found in `hidden_data/`. This is the file the tool uses under the hood to quickly look up readings on the HEEP. If reading types need to be updated (Appendix.RT), this file will be updated as well.
 SR | **Supported Readings XML/JSON** - This is the data collected from feeding in Appendix.MM to Appendix.Y8. This will only be important to debug an error, and depending on which error occurs, this will eithr be an .xml or .json file.
@@ -208,7 +201,7 @@ This should only be done if you need an updated version of the `Y84000-PTR | SRF
 
 1. Open the Fusion Item `Y84000-PTR | SRFN XML Configuration Creation Tool [REV:R]` ([link](https://aclara.autodeskplm360.net/workspace#workspaceid=57&dmsid=5165571&tab=partattachment))
 
-2. Download `Y84000-PTR SRFN XML Configuration Creation Tool RevQ FW _._X V_._.__.__ 20220330Unprotected`, the latest version of `File B ____TODO`
+2. Download `Y84000-PTR SRFN XML Configuration Creation Tool RevQ FW [version] [timestamp]Unprotected` ([Appendix.Y8](#appendix)).
 
 
 ## Getting the MeterMate Program
@@ -222,9 +215,9 @@ This should be done every time the tool is run, as this must be imported.
 
 ## Creating the Executable
 
-if you don't feel comfortble with this, please contact the developer. ____TODO
-
 This is optional and not required for proper use of the application.
+
+This should only be done if schemas need to be regenerated, or if the tool needs to be recompiled. Contact the developer for more information.
 
 To create the executable, the source code must be downloaded to your machine (see [Downloading the Code](#downloading-the-code)), and your present working directory in the command line must be `DCU_Config_Tool/`. 
 
