@@ -50,7 +50,7 @@ After opening the executable, you will be prompted to import files. After import
 
 6. Notice that there are 4 tabs at the top of the window. These tabs are for selecting for Bulk Quantity, Indicating, and Demand readings, respectively. The last tab is for reviewing the selections and exporting. 
 
-7. In each of the first 3 tabs, you will see a list of readings. These readings are the supported readings for the MeterMate file you imported. `Reading names in gold are considered 'popular'`. If you want to select a reading, simply click it and indicate which ____TODO selections? you want.
+7. In each of the first 3 tabs, you will see a list of readings. These readings are the supported readings for the MeterMate file you imported. `Reading names in gold are considered 'popular'`. If you want to select a reading, simply click it and indicate which ____TODO selections you want.
 
 8. Once you have made your selections, you can review them by clicking the last tab. Here, you will see a list of all the selections you have made. If you want to make changes or remove a reading, double-click the the reading to take you back to the tab where you can make changes.
 
@@ -63,7 +63,6 @@ For any errors that occur, please see the [Troubleshooting](#troubleshooting) se
 ## Setup
 
 For the application to be run properly, the location of the executable **must** have the structure below. Note that the `hidden_data/` folder is optional, and if it is not included it will be generated at runtime. (It's a lot faster if you do include it)
-____TODO how much of hidden data do we have to show
 ```
 ├── Meter NIC Reading Selector.exe
 └── config/
@@ -190,7 +189,7 @@ To get updated reading types, you must download an Excel file from Fusion, and c
 
 3. Open the file and navigate the the sheet labeled `READING_TYPE`
 
-4. ____TODO figure out how to do this
+4. ____TODO
 
 
 ## Getting the Y84000-PTR Tool
