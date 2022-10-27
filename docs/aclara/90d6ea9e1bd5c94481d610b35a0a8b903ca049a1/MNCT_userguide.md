@@ -1,6 +1,6 @@
 # **Meter NIC Config Tool User Guide v1.0.0**
 
-This simple application will allow a user to select ____TODO (DailyRead, DailyShift, OnRead) for readings supported by the endpoint, and feed them into an instance of the `Y84000-PTR | SRFN XML Configuration Creation Tool`.
+This simple application will allow a user to select `message configurations` (DailyShift, DemandReset, OnRequestRead) for readings supported by the endpoint (determined by the customer's `MeterMate program`), and feed them into an instance of the `Y84000-PTR | SRFN XML Configuration Creation Tool`.
 
 ## Notice
 
@@ -21,9 +21,9 @@ I greatly appreciate your patience and understanding, and I hope to eventually p
 
 # Tool Overview
 
-This tool attempts to address the shortcomings and complications that come with the process of configuring a customer's endpoint, specifically the process of selecting ____TODO for readings that the customer wants included in their endpoint.
+This tool attempts to address the shortcomings and complications that come with the process of configuring a customer's endpoint, specifically the process of selecting message configurations (DailyShift, DemandReset, OnRequestRead) for readings that the customer wants included in their endpoint.
 
-After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool` [Appendix.Y8](#appendix). Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select ____TODO for only the readings indicated by these calculations. 
+After creating a MeterMate file for the customer, this tool will take the MeterMate file, and feed it into a sheet of the `Y84000-PTR | SRFN XML Configuration Creation Tool` [Appendix.Y8](#appendix). Formulas on this sheet will then calcluate the supported readings for that MeterMate configuration, and present the user with the option to select message configurations (DailyShift, DemandReset, OnRequestRead) for only the readings indicated by these calculations. 
 
 The user will then make selections, and review them. After review, they will be prompted to export the selection, which will write them to a copy of the Y84000-PTR [Appendix.Y8](#appendix), which will populate the relevent sheets with the selections. 
 
@@ -38,11 +38,11 @@ For the application to run properly, you must have:
 
 After opening the executable, you will be prompted to import files. After importing, a window will be open up to allow you to select readings. After selecting readings, you can review the selections and export them. The steps below will walk you through this process:
 
-1. Import the Y84000-PTR. If you have not already, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
+1. (GREEN) Import the Y84000-PTR. If you have not already, see [Getting the Y84000-PTR Tool](#getting-the-y84000-ptr-tool).
 
-2. Import the MeterMate file. If you have not already, see [Getting the MeterMate Program](#getting-the-metermate-program).
+2. (BLUE) Import the MeterMate file. If you have not already, see [Getting the MeterMate Program](#getting-the-metermate-program).
 
-3. If needed, import updated reading types. If you have not already, see [Getting the Reading Types](#getting-the-reading-types).
+3. (RED) Verify that the last time the reading types were updated is desireable. If they need to be updated, see [Getting the Reading Types](#getting-the-reading-types).
 
 4. Press `Proceed` to continue, and indicate weather or not Time of Use (TOU) is enabled.
 
@@ -50,7 +50,7 @@ After opening the executable, you will be prompted to import files. After import
 
 6. Notice that there are 4 tabs at the top of the window. These tabs are for selecting for Bulk Quantity, Indicating, and Demand readings, respectively. The last tab is for reviewing the selections and exporting. 
 
-7. In each of the first 3 tabs, you will see a list of readings. These readings are the supported readings for the MeterMate file you imported. `Reading names in gold are considered 'popular'`. If you want to select a reading, simply click it and indicate which ____TODO selections you want.
+7. In each of the first 3 tabs, you will see a list of readings. These readings are the supported readings for the MeterMate file you imported. `Reading names in gold are considered 'popular'`. If you want to select a reading, simply click it and indicate which message configurations (DailyShift, DemandReset, OnRequestRead) you want.
 
 8. Once you have made your selections, you can review them by clicking the last tab. Here, you will see a list of all the selections you have made. If you want to make changes or remove a reading, double-click the the reading to take you back to the tab where you can make changes.
 
@@ -62,13 +62,16 @@ For any errors that occur, please see the [Troubleshooting](#troubleshooting) se
 
 ## Setup
 
-For the application to be run properly, the location of the executable **must** have the structure below. Note that the `hidden_data/` folder is optional, and if it is not included it will be generated at runtime. (It's a lot faster if you do include it)
+For the application to be run properly, the location of the executable **must** have the structure below. Note that the `hidden_data/` folder is optional, and if it is not included it will be generated at runtime.
+
+If you are curious about the contents of the `hidden_data/` folder, basically it holds a runtime log and a cache of all the reading types. The cache is used to speed up the process of getting the reading types, and the log is used to record any errors that occur. 
+
 ```
 ├── Meter NIC Reading Selector.exe
 └── config/
     ├── config.json
     └── hidden_data/ (OPTIONAL)
-        ├── ReadingsMap-xxxxxxxx.json (OPTIONAL)
+        ├── READING-TYPE-CACHE-xxxxxxxx.json (OPTIONAL)
         └── log.txt (OPTIONAL)
 ```
 
@@ -177,6 +180,8 @@ SS | **Supported Readings Schema** - Schema used to validate Appendix.SR
 
 ## Getting Updated Reading Types
 
+THIS IS A WORK IN PROGRESS AND WILL BE UPDATED SOON.
+
 This outlines how to acquire [Appendix.RT](#appendix).
 
 This should only be done if there has been an update to the reading types sooner that what is listed in the tool or in `config/hidden_data/ReadingsMap-xxxxxx.json`.
@@ -189,7 +194,7 @@ To get updated reading types, you must download an Excel file from Fusion, and c
 
 3. Open the file and navigate the the sheet labeled `READING_TYPE`
 
-4. ____TODO
+4. 
 
 
 ## Getting the Y84000-PTR Tool
@@ -205,11 +210,12 @@ This should only be done if you need an updated version of the `Y84000-PTR | SRF
 
 ## Getting the MeterMate Program
 
+THIS IS A WORK IN PROGRESS AND WILL BE UPDATED SOON.
+
 This outlines how to acquire [Appendix.MM](#appendix).
 
 This should be done every time the tool is run, as this must be imported. 
 
-1. ____TODO
 
 
 ## Creating the Executable
