@@ -1,0 +1,759 @@
+{
+    "meta": {
+        "title": "Ben Schwartz | Education",
+        "description": "TODO"
+    },
+    "education": [
+        {
+            "id": 1,
+            "category": "Courses",
+            "title": "Operating Systems",
+            "bodyText": "EECS 482: Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2023",
+                    "color": "yellow"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 2,
+            "category": "Courses",
+            "title": "Computer Networks",
+            "bodyText": "EECS 489: Protocols and architectures of computer networks. Topics include client-server computing, socket programming, naming and addressing, media access protocols, routing and transport protocols, flow and congestion control, and other application-specific protocols. Emphasis is placed on understanding protocol design principles. Programming problems to explore design choices and actual implementation issues assigned.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2023",
+                    "color": "yellow"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 3,
+            "category": "Courses",
+            "title": "Web Systems",
+            "bodyText": "EECS 485: Holistic course of modern web systems and technologies, covering front end and back end. Building an Instagram clone and a Google search engine clone.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs485.org"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "SQL",
+                    "color": "gray"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                }
+            ],
+            "bubble": {
+                "exists": true,
+                "text": "Favorite Course!",
+                "text_color": "black",
+                "background_color": "#d001c2"
+            },
+            "image_url": null
+        },
+        {
+            "id": 4,
+            "category": "Courses",
+            "title": "Programming Paradigms",
+            "bodyText": "EECS 390: Survey of programming language features and paradigms, with a focus on how to effectively use them. Creating a lexical parser and metacircular evaluator for Scheme, (a functional language) as a uC semantic analyzer and code generator.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs390.org"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Functional Programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Scheme",
+                    "color": "yellow"
+                },
+                {
+                    "text": "uC",
+                    "color": "yellow"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 5,
+            "category": "Courses",
+            "title": "Data Structures and Algorithms",
+            "bodyText": "EECS 281: Use of data structures and algorithms to optimally solve complex problems. Project-based work spans all major data structures, search optimization, priority queue implementation, hash maps, and shortest-path solvers.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs281staff.github.io/eecs281.org/"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Memory Management",
+                    "color": "gray"
+                },
+                {
+                    "text": "Runtime Efficiency",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": true,
+                "text": "Previously a TA",
+                "text_color": "white",
+                "background_color": "#054c00"
+            },
+            "image_url": null
+        },
+        {
+            "id": 6,
+            "category": "Courses",
+            "title": "Computer Security",
+            "bodyText": "EECS 388: Explore the principles and practices of computer security as applied to software, host systems, and networks, covering the foundations of building, using, and managing secure systems. Project-based work includes standard cryptographic functions and protocols, threats and defenses for real-world systems, web and network security, application security, incident response, and computer forensics.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs388.org"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "x86",
+                    "color": "gray"
+                },
+                {
+                    "text": "GDB",
+                    "color": "gray"
+                },
+                {
+                    "text": "Wireshark",
+                    "color": "gray"
+                },
+                {
+                    "text": "Docker",
+                    "color": "gray"
+                },
+                {
+                    "text": "XSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "SQL-Injections",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSRF",
+                    "color": "gray"
+                },
+                {
+                    "text": "Cryptography",
+                    "color": "gray"
+                },
+                {
+                    "text": "ROP-chaining",
+                    "color": "gray"
+                },
+                {
+                    "text": "Autopsy",
+                    "color": "gray"
+                },
+                {
+                    "text": "Buffer Overflow",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": true,
+                "text": "Currently a GSI",
+                "text_color": "white",
+                "background_color": "red"
+            },
+            "image_url": null
+        },
+        {
+            "id": 7,
+            "category": "Courses",
+            "title": "Computer Science Theory",
+            "bodyText": "EECS 376: Introduction to Computer Science theory, with applications. Design and analysis of algorithms, and paradigms, fundamentals of computability and complexity with Turing machine theory, randomized algorithms, and applications of computational hardness to cryptography.",
+            "links": [
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs376.org"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Theory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Proofs",
+                    "color": "gray"
+                },
+                {
+                    "text": "P vs. NP",
+                    "color": "gray"
+                },
+                {
+                    "text": "Cryptography",
+                    "color": "gray"
+                },
+                {
+                    "text": "Runtime Efficiency",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 8,
+            "category": "Courses",
+            "title": "Computer Organization",
+            "bodyText": "EECS 370: Examine how a low-level language is executed by the hardware, and how to put together basic hardware building blocks to form the functional units of a computer. Project-based work involves creating an assembler, linker and simulator for LC2K (an assembly language), as well as a cache simulator.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs370.github.io"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Memory Management",
+                    "color": "gray"
+                },
+                {
+                    "text": "Assembly",
+                    "color": "gray"
+                },
+                {
+                    "text": "ARMv8",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Compilers",
+                    "color": "gray"
+                },
+                {
+                    "text": "Pipelining",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 9,
+            "category": "Courses",
+            "title": "Computer Science Pragmatics",
+            "bodyText": "EECS 201: Learn the ins and outs of properly using a Unix-like system. Project-based work covers shells, version control, build systems, debugging, and scripting.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs.umich.edu/courses/eecs201/"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Bash",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Unix",
+                    "color": "gray"
+                },
+                {
+                    "text": "Regex",
+                    "color": "gray"
+                },
+                {
+                    "text": "Editors",
+                    "color": "gray"
+                },
+                {
+                    "text": "Makefile",
+                    "color": "gray"
+                },
+                {
+                    "text": "GDB",
+                    "color": "gray"
+                },
+                {
+                    "text": "Unit-testing",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 10,
+            "category": "Courses",
+            "title": "Programming and Data Structures",
+            "bodyText": "EECS 280: Computer science fundamentals, with programming in C++. Build an image processing program, a game of Euchre, a web backend, and a machine learning algorithm.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "To protect the integrity of this course, I keep my code private. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://eecs280.org"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2021",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Machine Learning",
+                    "color": "gray"
+                },
+                {
+                    "text": "Web",
+                    "color": "gray"
+                },
+                {
+                    "text": "OOP",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 11,
+            "category": "Courses",
+            "title": "Discrete Mathematics",
+            "bodyText": "EECS 203: Explore the mathematical foundations of computer science. Topics covered include: propositional and predicate logic, proof methods, set theory, functions, sequences and summations, introduction to algorithms, mathematical induction, counting, permutations and combinations, and introduction to graph theory.",
+            "links": [
+                {
+                    "text": "Class Website",
+                    "is_modal": false,
+                    "data": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-203/"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2021",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Theory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Proofs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Math",
+                    "color": "gray"
+                },
+                {
+                    "text": "Graphs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Algorithms",
+                    "color": "gray"
+                },
+                {
+                    "text": "Induction",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 12,
+            "category": "Courses",
+            "title": "Other UM Courses",
+            "bodyText": "I have taken many other non-CS courses at the University of Michigan, such as calculus I & II, statistics, upper-level writing, biology, music theory, history, archaeology, language, and more! Feel free to ask me about them.",
+            "links": [],
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 13,
+            "category": "Certificates",
+            "title": "Scripting with Python and SQL for Data Engineering",
+            "bodyText": "Mini-course that covered data extraction from different sources and mapping, script design for connecting and querying a SQL database, and application of scraping techniques to read and extract data from a website.",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "is_modal": false,
+                    "data": "https://coursera.org/share/0069088aedb0058c174552ef7992bc6d"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "Duke University",
+                    "color": "blue"
+                },
+                {
+                    "text": "Coursera",
+                    "color": "gray"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "SQL",
+                    "color": "gray"
+                },
+                {
+                    "text": "Web-scraping",
+                    "color": "gray"
+                },
+                {
+                    "text": "Data management",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        },
+        {
+            "id": 14,
+            "category": "Certificates",
+            "title": "The Complete 2023 Web Development Bootcamp",
+            "bodyText": "Full-stack 66 hour web development course covering HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and much more (tagged below).",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "is_modal": false,
+                    "data": "https://www.udemy.com/certificate/UC-8de445a7-e258-4025-9192-a8dcd3485d98/"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "Bootstrap",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "DOM",
+                    "color": "gray"
+                },
+                {
+                    "text": "jQuery",
+                    "color": "gray"
+                },
+                {
+                    "text": "Unix",
+                    "color": "gray"
+                },
+                {
+                    "text": "Node.js",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Express.js",
+                    "color": "gray"
+                },
+                {
+                    "text": "Git",
+                    "color": "gray"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Databases",
+                    "color": "gray"
+                },
+                {
+                    "text": "SQL",
+                    "color": "gray"
+                },
+                {
+                    "text": "MongoDB",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Mongoose",
+                    "color": "gray"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Web3",
+                    "color": "gray"
+                },
+                {
+                    "text": "ICP",
+                    "color": "gray"
+                },
+                {
+                    "text": "Blockchain",
+                    "color": "gray"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "image_url": null
+        }
+    ]
+}

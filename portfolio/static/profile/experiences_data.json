@@ -1,0 +1,272 @@
+{
+    "meta": {
+        "title": "Ben Schwartz | Experiences",
+        "description": "TODO"
+    },
+    "experiences": [
+        {
+            "title": "August 2023",
+            "cardTitle": "University of Michigan",
+            "cardSubtitle": "Graduate Student Instructor, EECS 388: Introduction to Computer Security",
+            "cardDetailedText": "As a teaching assistant my final semester of undergrad, and now going to be a graduate student instructor during my masters program, I help improve and maintain one of the most popular CS electives at the University of Michigan. The course focuses on all fundamental aspects of cybersecurity: cryptography, web security, networks, applications, and digital forensics. My work consists of teaching labs, writing exams, holding office hours, and a lot of project maintenence; this involves managing the course's AWS instances for web-based projects, Docker containers for student development environments, virtual machines for students, and the course autograder. I'm working closely with professor J. Alex Halderman to design new projects and refine the course, and I plan to have a much more involved role as a graduate student.",
+            "tags": [
+                {
+                    "text": "Fall 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2024",
+                    "color": "yellow"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Infrastructure",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Docker",
+                    "color": "gray"
+                },
+                {
+                    "text": "Kubernetes",
+                    "color": "gray"
+                },
+                {
+                    "text": "Teaching",
+                    "color": "gray"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Go",
+                    "color": "gray"
+                },
+                {
+                    "text": "Caddy",
+                    "color": "gray"
+                },
+                {
+                    "text": "Slack",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Piazza",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
+            "title": "May 2023",
+            "cardTitle": "Hyland Software",
+            "cardSubtitle": "Software Developer Intern",
+            "cardDetailedText": "Working full-time during the summer of 2023 and planning to be part-time the following school year. I'm working with the IS Services Delivery team to create a brand new service for all Hyland employees that tracks the SSL certificate statuses of Hyland-managed domains. The solution consists of a .NET Core MVC frontend with multiple C# microservices that communicate with Confluence, Jira, and work order REST APIs. Includes its own REST API for the frontend to communicate with, as well as a custom Boomi process to sync data and send reminders. Extensive use of Bitbucket, as well as build pipelines with Jenkins and Octopus Deploy. I'm now working in an Agile environment with the IS Services Delivery team to contribute to several IS processes!",
+            "tags": [
+                {
+                    "text": "Summer 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C#",
+                    "color": "yellow"
+                },
+                {
+                    "text": ".NET Core MVC",
+                    "color": "yellow"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Confluence",
+                    "color": "gray"
+                },
+                {
+                    "text": "Jira",
+                    "color": "gray"
+                },
+                {
+                    "text": "Bitbucket",
+                    "color": "gray"
+                },
+                {
+                    "text": "Jenkins",
+                    "color": "gray"
+                },
+                {
+                    "text": "Octopus Deploy",
+                    "color": "gray"
+                },
+                {
+                    "text": "Boomi",
+                    "color": "gray"
+                }
+            ]
+        },
+        {
+            "title": "August 2022",
+            "cardTitle": "University of Michigan",
+            "cardSubtitle": "Teaching Assistant, EECS 281: Data Structures and Algorithms",
+            "cardDetailedText": "Worked during my junior year as a teaching assistant, teaching data structures and algorithms to over 1000 students in a core computer science course. My time consisted of conducting lab sections, holding office hours, answering student questions, writing exams, and providing feedback to the course. Coordinated with a 40+ member staff team and 4 professors to develop lessons, projects, labs, and assignments. Collaborated with other staff and professors to improve students' programming skills, resulting in 86% of students demonstrating an increased interest in computer science.",
+            "tags": [
+                {
+                    "text": "Fall 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Grading",
+                    "color": "gray"
+                },
+                {
+                    "text": "Office Hours",
+                    "color": "gray"
+                },
+                {
+                    "text": "Lab Teaching",
+                    "color": "gray"
+                },
+                {
+                    "text": "Exam Writing",
+                    "color": "gray"
+                },
+                {
+                    "text": "Slack",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Piazza",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
+            "title": "May 2022",
+            "cardTitle": "Aclara Technologies",
+            "cardSubtitle": "Software Engineer Intern",
+            "cardDetailedText": "Worked full-time during the summer of 2022 and part-time the following school year (until April 2022), I developed Python applications to improve the meter delivery process and reduce the risk of defective configurations. Collaborated with systems engineers in St. Louis to redesign the process, involving multiple groups and over 100 engineers. After integrating my applications into their pipeline new applications for easy configuration testing and minimize defects for ~10 commercial and 100 residential new customers. Before leaving, I wrote extensive documentation for the applications to be used by future engineers for customers.",
+            "tags": [
+                {
+                    "text": "Summer 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Fall 2022",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "PyInstaller",
+                    "color": "gray"
+                },
+                {
+                    "text": "Tkinter",
+                    "color": "gray"
+                },
+                {
+                    "text": "ADO",
+                    "color": "gray"
+                },
+                {
+                    "text": "Pandas",
+                    "color": "gray"
+                },
+                {
+                    "text": "Integrations",
+                    "color": "gray"
+                },
+                {
+                    "text": "Documentation",
+                    "color": "gray"
+                }
+            ]
+        },
+        {
+            "title": "April 2020",
+            "cardTitle": "TruSource Marketing",
+            "cardSubtitle": "Software Developer",
+            "cardDetailedText": "During the summer coming out of high school and into early 2022, Developed a monthly revenue report generator to assess the effects of different marketing tactics across 49 states. Integrated a Google Sheets API to analyze over 9000 potential leads/month and determine the distribution of billable calls per state, resulting in a 10% increase in total call revenue per data lead by state from 2020 to 2021. Consulted with company CEO to create better marketing strategies based on generated statistics, focusing on regions with higher average profitable leads, eventually increasing usable leads by 20% from 2020 to 2021.",
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Google Sheets API",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Swift UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Data Analysis",
+                    "color": "gray"
+                },
+                {
+                    "text": "Data Visualization",
+                    "color": "gray"
+                }
+            ]
+        },
+        {
+            "title": "August 2018",
+            "cardTitle": "Solon High School",
+            "cardSubtitle": "Teaching Assistant",
+            "cardDetailedText": "During my junior and senior year of high school (until May 2020), taught over 100 AP and introductory computer science students, covering core concepts of object-oriented programming including data structures, algorithms, user interfaces, and problem solving through Java and C++. Worked with the instructor to modify and improve the curriculum, developing skills in time management, communication, and efficiency. As a result, there was a 10% increase in students passing the AP exam.",
+            "tags": [
+                {
+                    "text": "Java",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Grading",
+                    "color": "gray"
+                },
+                {
+                    "text": "Office Hours",
+                    "color": "gray"
+                },
+                {
+                    "text": "Lab Teaching",
+                    "color": "gray"
+                },
+                {
+                    "text": "Exam Writing",
+                    "color": "gray"
+                }
+            ]
+        }
+    ]
+}

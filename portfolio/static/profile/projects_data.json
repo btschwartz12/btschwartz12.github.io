@@ -1,0 +1,2627 @@
+{
+    "meta": {
+        "title": "Ben Schwartz | Projects",
+        "description": "TODO"
+    },
+    "projects": [
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "3D Maze Solver",
+            "bodyText": "Wrote a C++ command-line tool that takes in multi-format 3D mazes to find the optimal path. Supports both BFS and DFS.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 281",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "BFS",
+                    "color": "gray"
+                },
+                {
+                    "text": "DFS",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Custom Priority Queues",
+            "bodyText": "Wrote three different priority queue implementations in C++ (Sorted, Binary, and Pairing PQ) and a command-line tool that utilized them to simulate Star Wars-themed battles. The program incorporated stream-based algorithms to determine the outcome of each battle and calculate a running median of statistics.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 281",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Priority Queues",
+                    "color": "gray"
+                },
+                {
+                    "text": "Dynamic Memory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Heaps",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Custom SQL",
+            "bodyText": "Created a custom SQL server that allowed for efficient management of tables and data, with the added feature of generating hash indices to improve performance. The server incorporated data structures such as C++'s <unordered_map>, hash tables, and binary search trees (BST) to efficiently manage large amounts of data.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 281",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Hash Maps",
+                    "color": "gray"
+                },
+                {
+                    "text": "Binary Search",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "School",
+            "title": "Traveling Salesman Solver",
+            "bodyText": "Implemented Minimum Spanning Tree (MST) algorithms, specifically Prim's and Kruskal's, to efficiently solve the Traveling Salesman Problem (TSP). The project also required the implementation of a Branch and Bound algorithm, with a fast and effective bounding algorithm, to achieve an optimal solution. To further improve efficiency, various heuristic approaches were explored, utilizing known TSP heuristics that have a runtime better than O(n^2). ",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 281",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "TSP",
+                    "color": "gray"
+                },
+                {
+                    "text": "Graph Theory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Heuristics",
+                    "color": "gray"
+                },
+                {
+                    "text": "Branch and Bound Algorithms",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Image Resizer",
+            "bodyText": "Wrote a C command-line tool that performs a seam-carving algorithm, which removes seams in an image that pass through the least important pixels, resulting in content-aware image resizing.",
+            "image": "static/media/projects/280-p2/280-p2.png",
+            "video": "static/media/projects/280-p2/280-p2.gif",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 280",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Dynamic Memory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Image Rendering",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Euchre",
+            "bodyText": "Wrote a C++ command-line tool to play the popular card game Euchre, utilizing abstract data types, derived classes, inheritance, and polymorphism. The program supports both real opponents and automated opponents, and uses virtual functions to allow for flexible and dynamic behavior.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 280",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Inheritance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Polymorphism",
+                    "color": "gray"
+                },
+                {
+                    "text": "Dynamic Memory",
+                    "color": "gray"
+                },
+                {
+                    "text": "AI",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Online Office Hours Queue",
+            "bodyText": "Buil5 a web server for an office hours queue, with a focus on container ADTs, dynamic memory, constructors and destructors, and the list data structure. The program utilized custom-implemented Linked Lists and Iterators to manage the queue.",
+            "image": "static/media/projects/280-p4/280-p4.png",
+            "video": "static/media/projects/280-p4/280-p4.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 280",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "The Big Three",
+                    "color": "gray"
+                },
+                {
+                    "text": "Dynamic Memory",
+                    "color": "gray"
+                },
+                {
+                    "text": "Container ADTs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Linked Lists",
+                    "color": "gray"
+                },
+                {
+                    "text": "Iterators",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "AI-driven Piazza Classifier",
+            "bodyText": "Created a command-line tool in C++ that identified the subject of student questions using natural language processing and machine learning techniques. Implementation consisted of recursion, binary trees, templates, comparators, and the map data structure.",
+            "image": "static/media/projects/280-p5/280-p5.png",
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 280",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Recursion",
+                    "color": "gray"
+                },
+                {
+                    "text": "Binary Trees",
+                    "color": "gray"
+                },
+                {
+                    "text": "Comparators",
+                    "color": "gray"
+                },
+                {
+                    "text": "Natural Language Processing",
+                    "color": "gray"
+                },
+                {
+                    "text": "Machine Learning",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "School",
+            "title": "Assembler, Linker & Simulator",
+            "bodyText": "Built a command-line tool in C that converted LC2K assembly into machine code, and simulate its execution by implementing all functionality of its instrution set architecture. Implemented a linker that can take multiple assembly files and manage their symbol and relocation tables during assembly. Also created a 15-bit multiplier in LC2K assembly.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 370",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "RISC Assembly",
+                    "color": "gray"
+                },
+                {
+                    "text": "Instruction Set Architectures",
+                    "color": "gray"
+                },
+                {
+                    "text": "Low-level programming",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Pipelined Simulator",
+            "bodyText": "Created a multi-cycle pipelined simulator for the LC2K instruction set architecture. The simulator was implemented in C, and utilized the concepts of pipelining, forwarding, and hazard detection.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 370",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "RISC Assembly",
+                    "color": "gray"
+                },
+                {
+                    "text": "Instruction Set Architectures",
+                    "color": "gray"
+                },
+                {
+                    "text": "Low-level programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Pipelines",
+                    "color": "gray"
+                },
+                {
+                    "text": "Data/Control Hazards",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Cache Simulator",
+            "bodyText": "Created a cache simulator for the LC2K instruction set architecture. The simulator was implemented in C, and utilized the concepts of cache design and how a caching processor generates and services address references.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 370",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "RISC Assembly",
+                    "color": "gray"
+                },
+                {
+                    "text": "Instruction Set Architectures",
+                    "color": "gray"
+                },
+                {
+                    "text": "Low-level programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Caches",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Cryptographic Attacks",
+            "bodyText": "Conducted various cryptographic attacks on a course-made server, including length extension, padding oracle, Bleichenbacher's e=3 RSA attack, and a timing attack. The attacks were implemented in Python, and utilized the concepts of cryptography and cryptanalysis.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 388",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Hash Algorithms",
+                    "color": "gray"
+                },
+                {
+                    "text": "Cryptography",
+                    "color": "gray"
+                },
+                {
+                    "text": "Digital Signatures",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Web-based Attacks",
+            "bodyText": "Conducted various web-based attacks on a course-made server, including XSS, CSRF, and SQL injection. The attacks were implemented in Python, and utilized the concepts of web security and web application development.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 388",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "SQL",
+                    "color": "gray"
+                },
+                {
+                    "text": "Web Security",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Network Attacks",
+            "bodyText": "Conduct various network attacks on a course-made server, including certificate forgery, DNS poisoning, time-based authentication circumventing, and network surveying. The attacks were implemented in Python.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 388",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Network Security",
+                    "color": "gray"
+                },
+                {
+                    "text": "Wireshark",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Application Attacks",
+            "bodyText": "Conduct various attacks on compiled binaries, including buffer overflow, integer overflow, return-oriented programming, NOP sled, and reverse engineering. The attacks were implemented in Python, and utilized the concepts of low-level programming and binary inspection.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 388",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Ghidra",
+                    "color": "gray"
+                },
+                {
+                    "text": "GDB",
+                    "color": "gray"
+                },
+                {
+                    "text": "Buffer Overflow",
+                    "color": "gray"
+                },
+                {
+                    "text": "ROP",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "School",
+            "title": "Digital Forensics",
+            "bodyText": "Investigated a ficticious suspect of a crime by inspeting their virtual hard drive, virtual machine, and internet footprint. This included recovering deleted files and conducting various attacks (length extension, XSS, CSRF, SQL injection, DNS poisining, buffer overflow, ROP-chaining, password-cracking) to find details about the persona.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": true,
+                "text": "Favorite Project!",
+                "text_color": "black",
+                "background_color": "#d001c2"
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 388",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Autopsy",
+                    "color": "gray"
+                },
+                {
+                    "text": "Cryptography",
+                    "color": "gray"
+                },
+                {
+                    "text": "Web Security",
+                    "color": "gray"
+                },
+                {
+                    "text": "Application Security",
+                    "color": "gray"
+                },
+                {
+                    "text": "GDB",
+                    "color": "gray"
+                },
+                {
+                    "text": "Digital Forensics",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": true,
+            "category": "Personal",
+            "title": "Instagram Clone",
+            "bodyText": "Built an instagram clone where users could login, post, and engage with other users' posts with client-side dynamic pages using React, Python and HTML. Deployed on AWS using Elastic Beanstalk. Started out as a school project, but I made several modifications to it to make it more robust and scalable, and it is now hosted on my VPS.",
+            "image": "static/media/projects/485-insta/485-insta.png",
+            "video": "static/media/projects/485-insta/485-insta.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "Some of this project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://btschwartz.com/insta/"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                },
+                {
+                    "text": "UX",
+                    "color": "gray"
+                },
+                {
+                    "text": "Databases",
+                    "color": "gray"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Deployment",
+                    "color": "gray"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "Authentication",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "School",
+            "title": "MapReduce",
+            "bodyText": "Built a custom implementation of the MapReduce framework, including a master node, worker nodes, and a client. The framework was implemented in Python, and can execute MapReduce jobs with distributed processing on a cluster of computer nodes. Consisted of basic distributed systems concepts, OS-provided concurrency facilities (threads and processes), fault tolerance, networking, and distributed file systems. Deployed on AWS using Elastic Beanstalk.",
+            "image": "static/media/projects/mapreduce/mapreduce.png",
+            "video": "static/media/projects/mapreduce/mapreduce.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 485",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "MapReduce",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Distributed Systems",
+                    "color": "gray"
+                },
+                {
+                    "text": "Concurrency",
+                    "color": "gray"
+                },
+                {
+                    "text": "Fault Tolerance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Threading",
+                    "color": "gray"
+                },
+                {
+                    "text": "Sockets",
+                    "color": "gray"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "School",
+            "title": "Search Engine",
+            "bodyText": "Built a scalable search engine similar to Google or Bing, by creating an inverted index, an index server, a search server, and a simple frontend. Utilized information retrieval techniques like tf-idf text analysis, PageRank link analysis, and parallel data processing with MapReduce. Deployed on AWS using Elastic Beanstalk.",
+            "image": "static/media/projects/search-engine/search-engine.png",
+            "video": "static/media/projects/search-engine/search-engine.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 485",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Concurrent Servers",
+                    "color": "gray"
+                },
+                {
+                    "text": "Page Indexing",
+                    "color": "gray"
+                },
+                {
+                    "text": "Information Retrieval",
+                    "color": "gray"
+                },
+                {
+                    "text": "PageRank",
+                    "color": "gray"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Parallel Data Processing",
+                    "color": "gray"
+                },
+                {
+                    "text": "MapReduce",
+                    "color": "yellow"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 5,
+            "is_featured": false,
+            "category": "School",
+            "title": "Page Rank",
+            "bodyText": "Created a custom graph library in Python, and implemented the Page Rank algorithm to rank the importance of web pages.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 390",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Graph Theory",
+                    "color": "gray"
+                },
+                {
+                    "text": "PageRank",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "School",
+            "title": "Scheme Lexer, Parser, & Interpreter",
+            "bodyText": "Created a custom lexer, parser, and interpreter for the Scheme programming language in its own language, R5RS Scheme. A lot of experience with recursion and functional programming (and way too many parenthesis).",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 390",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Scheme",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Functional Programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Recursion",
+                    "color": "gray"
+                },
+                {
+                    "text": "Language Specifications",
+                    "color": "gray"
+                },
+                {
+                    "text": "Regular Expressions",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "School",
+            "title": "uC Semantic Analyzer & Code Generator",
+            "bodyText": "Implemented a semantic analyzer and code generator for uC, a small language in the C family, which would identify semantic errors in source code and convert to executable C++. Consisted of navigating and extending a large code base, working with a large class hierarchy, reading and analyzing language specifications, synthesizing test cases, understanding abstract syntax trees, program analysis, and compiler reasoning. Also gained experience working with an existing code base, with complex code written by someone else, and practice metaprogramming and the use of macros and templates.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 390",
+                    "color": "yellow"
+                },
+                {
+                    "text": "uC",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Abstract Syntax Trees",
+                    "color": "gray"
+                },
+                {
+                    "text": "Large Code Bases",
+                    "color": "gray"
+                },
+                {
+                    "text": "Inheritance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Metaprogramming",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "WingmanGPT",
+            "bodyText": "A command-line tool that utilizes OpenAI's ChatGPT model to generate conversation starters for you, and can even send a text message to a specified number. It's like your own personal wingman!",
+            "image": "static/media/projects/wingmangpt/wingmangpt.png",
+            "video": "",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/WingmanGPT"
+                },
+                {
+                    "text": "PyPi",
+                    "is_modal": false,
+                    "data": "https://pypi.org/project/WingmanGPT/"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "OpenAI",
+                    "color": "green"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "PyPi Deployment",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Minesweeper",
+            "bodyText": "A Minesweeper game that I built in Java using the Swing library. It has a custom GUI, and a custom Minesweeper board generator that generates boards of any size and difficulty.",
+            "image": "static/media/projects/minesweeper/minesweeper.png",
+            "video": "static/media/projects/minesweeper/minesweeper.gif",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/Minesweeper"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Java",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Swing",
+                    "color": "gray"
+                },
+                {
+                    "text": "GUIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Game Development",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Personal Portfolio",
+            "bodyText": "The website you are looking at right now! This website was built in React with many different components and a Flask backend, served by Nginx running on my Ubuntu VPS. I'd love to hear what you think!",
+            "image": "static/media/projects/personal-website/personal-website.png",
+            "video": "static/media/projects/personal-website/personal-website.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/bliss-portfolio"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "UX",
+                    "color": "gray"
+                },
+                {
+                    "text": "UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "GitHub Workflows",
+                    "color": "gray"
+                },
+                {
+                    "text": "Flask",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Nginx",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Positive Pupil Popup",
+            "bodyText": "Developed a Google Chrome Extension that can detect when Canvas user finishes an online assignment, then automatically shows a page where the user can play a game or get suggestions for a break. Consisted of integrating the Canvas API and Google Chrome Extension API, along with Javascript game development.",
+            "image": "static/media/projects/pppp/pppp.png",
+            "video": "static/media/projects/pppp/pppp.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/eecs497_brewing_java"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "Google Chrome Extension Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Canvas",
+                    "color": "gray"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Game Development",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Blissdle",
+            "bodyText": "My attempt at a solver for the popular game [wordle](https://www.nytimes.com/games/wordle/index.html). It uses hash maps and hash sets to filter out the possible words after guesses, and can help aid the user if they are stuck. This was originally a command-line tool, but eventaully I tried to incorporate it into an iOS app as well as a web app, but I never got around to finishing it.",
+            "image": "static/media/projects/blissdle/blissdle.png",
+            "video": "static/media/projects/blissdle/blissdle.mp4",
+            "links": [
+                {
+                    "text": "CLT GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/Blissdle-CLT"
+                },
+                {
+                    "text": "iOS GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/Blissdle-iOS"
+                },
+                {
+                    "text": "Web GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/Blissdle-Web"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "iOS Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Web Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Game Development",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Bliss Wheel",
+            "bodyText": "Very simple dumb project from when I was learning Swift that helps you make a decision by spinning a wheel with your options. It was originally a command-line tool in C++, but I eventually incorporated it into a macOS app.",
+            "image": "static/media/projects/bliss-wheel/bliss-wheel.png",
+            "video": "static/media/projects/bliss-wheel/bliss-wheel.mp4",
+            "links": [
+                {
+                    "text": "macOS GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/BlissWheel-macOS"
+                },
+                {
+                    "text": "CLT GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/ConsoleWheel"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "macOS",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Swift UI",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Let's Eat",
+            "bodyText": "Built a restaurant reservation iOS app in Sift that allows users to explore a list of restaurants categorized by cuisine or view a map showing all restaurants in a particular area, view the details of a restaurant, including a menu, reviews, and a map. Created a framework for the user to create and manage reservations.",
+            "image": "static/media/projects/lets-eat/lets-eat.png",
+            "video": "static/media/projects/lets-eat/lets-eat.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/LetsEat"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "iOS Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Xcode",
+                    "color": "gray"
+                },
+                {
+                    "text": "Storyboard UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Model-View-Controller",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "PriceCalc",
+            "bodyText": "A simple tool that can calculate what each person owes for large food orders. This allows the extra delivery and tax fees to be fairly distributed among the people who ordered the food. This was initially made with a C++ command-line tool, but I later made it into a functional iOS and macOS app and released to some of my friends.",
+            "image": "static/media/projects/price-calc/price-calc.png",
+            "video": "static/media/projects/price-calc/price-calc.mp4",
+            "links": [
+                {
+                    "text": "CLT GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/PriceCalc-CLT"
+                },
+                {
+                    "text": "iOS GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/PriceCalc-iOS"
+                },
+                {
+                    "text": "MacOS GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/Blissdle-macOS"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "iOS Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "macOS Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Xcode",
+                    "color": "gray"
+                },
+                {
+                    "text": "Storyboard UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Model-View-Controller",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "TruSource Report Builder",
+            "bodyText": "Made for my senior project for high school, this is a macOS application that analyzes several databases using the Google Sheets API, and then generates a report based on the data.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/TruSourceReportBuilder-macOS"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Swift",
+                    "color": "yellow"
+                },
+                {
+                    "text": "macOS Development",
+                    "color": "gray"
+                },
+                {
+                    "text": "Xcode",
+                    "color": "gray"
+                },
+                {
+                    "text": "Storyboard UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swift UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Google Sheets API",
+                    "color": "gray"
+                },
+                {
+                    "text": "Model-View-Controller",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 4,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Baseball Simulator",
+            "bodyText": "Scrapes data from Baseball Reference and simulates a baseball season using the data. This was one of my first experiences with object-oriented programming in C++ and was a fun project to work on.",
+            "image": null,
+            "video": null,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/BaseballSimulator"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Web Scraping",
+                    "color": "gray"
+                },
+                {
+                    "text": "Object-Oriented Programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Inheritance",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": true,
+            "category": "Personal",
+            "title": "REST API with Swagger UI",
+            "bodyText": "Created a REST API using Flask-RestX and Swagger UI, which allows the user to interact with the API through a web interface. Added JSON web token authentication system, and integrated with several of my applications. Integrated with a MySQL database, and both running on my Ubuntu VPS.",
+            "image": "static/media/projects/api/api.png",
+            "video": null,
+            "links": [
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://api.btschwartz.com/api/v1/"
+                },
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Bruh",
+                        "body": "Why would I make this public, I'm not trying to get hacked! I can show you privately if you want though, just contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "MySQL",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Flask",
+                    "color": "yellow"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Swagger UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Web Security",
+                    "color": "gray"
+                },
+                {
+                    "text": "JSON Web Tokens",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Meter Configuration Creation Tool",
+            "bodyText": "Created a full-stack Python tool while working with Aclara Technologies that parses specific configurations from the meter team and uses that to calculate and filter available IEC (International Electrotechnical Commision) reading types for the meter's NIC (Network Interface Card). The tool then offers the customer a list of reading types to choose from, where a configuration file is generated and sent to operations for prodution. Consisted of extensive use of OOP, inheritence, testing, building and maintaining a large code base, and working with multiple engineers in different departments to create something that integrates several different processes. Also gained experience developing on a Windows 11 VM.",
+            "image": "static/media/projects/mnct/mnct.png",
+            "video": "static/media/projects/mnct/mnct.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "I prefer to keep my code for this private, but I am happy to share it with anyone interested! Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "OOP",
+                    "color": "gray"
+                },
+                {
+                    "text": "Inheritance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Large Code Bases",
+                    "color": "gray"
+                },
+                {
+                    "text": "Testing",
+                    "color": "gray"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "Tkinter",
+                    "color": "gray"
+                },
+                {
+                    "text": "Windows 11",
+                    "color": "gray"
+                },
+                {
+                    "text": "VMs",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Data Collection Unit Configuration Tool",
+            "bodyText": "Created a full-stack Python tool while working with Aclara Technologies that takes in FCC-licensed frequencies and a customer worksheet, and generates an XML file that is used for the meter configuration process. Consisted of extensive use of OOP, inheritence, testing, building and maintaining a large code base, and working with multiple engineers in different departments to create something that integrates several different processes. Also gained experience developing on a Windows 11 VM.",
+            "image": "static/media/projects/dcuct/dcuct.png",
+            "video": "static/media/projects/dcuct/dcuct.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "I prefer to keep my code for this private, but I am happy to share it with anyone interested! Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "OOP",
+                    "color": "gray"
+                },
+                {
+                    "text": "Inheritance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Large Code Bases",
+                    "color": "gray"
+                },
+                {
+                    "text": "Testing",
+                    "color": "gray"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "Tkinter",
+                    "color": "gray"
+                },
+                {
+                    "text": "Windows 11",
+                    "color": "gray"
+                },
+                {
+                    "text": "VMs",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Personal VPS with PHP MyAdmin",
+            "bodyText": "Purchased and fully configured an 2.5GB KVM running Ubuntu 20.04. Installed and configured Nginx, MySQL with PHP MyAdmin, and many more services, and deployed several of my applications to it. Also configured a firewall and SSH keys for security. Planning to do more with it in the future.",
+            "image": "static/media/projects/vps/vps.png",
+            "video": "static/media/projects/vps/vps.mp4",
+            "links": [],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Ubuntu",
+                    "color": "yellow"
+                },
+                {
+                    "text": "VPS",
+                    "color": "gray"
+                },
+                {
+                    "text": "Nginx",
+                    "color": "gray"
+                },
+                {
+                    "text": "MySQL",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Linux",
+                    "color": "gray"
+                },
+                {
+                    "text": "PHP MyAdmin",
+                    "color": "gray"
+                },
+                {
+                    "text": "Firewalls",
+                    "color": "gray"
+                },
+                {
+                    "text": "Security",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Landing Page",
+            "bodyText": "Created a base that my domain points to, which consists of a landing page with links to my projects. The page consists of a Flask backend, and a React frontend. The page is served by Nginx running on my Ubuntu VPS.",
+            "image": "static/media/projects/landing-page/landing-page.png",
+            "video": "static/media/projects/landing-page/landing-page.mp4",
+            "links": [
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://btschwartz.com/"
+                },
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/landing-page"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "UX",
+                    "color": "gray"
+                },
+                {
+                    "text": "UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Flask",
+                    "color": "yellow"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Slideshow",
+            "bodyText": "Created a simple image hosting website in React that allows users to upload, delete, and view other users' images. The site interacts with a portion of my REST API, requiring users to obtain a JSON web token to upload or delete images. The site is served by Nginx running on my Ubuntu VPS.",
+            "image": "static/media/projects/slideshow/slideshow.png",
+            "video": "static/media/projects/slideshow/slideshow.mp4",
+            "links": [
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://btschwartz.com/pics"
+                },
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/bliss-slideshow"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "UX",
+                    "color": "gray"
+                },
+                {
+                    "text": "UI",
+                    "color": "gray"
+                },
+                {
+                    "text": "Flask",
+                    "color": "yellow"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "JSON Web Tokens",
+                    "color": "gray"
+                },
+                {
+                    "text": "Media Hosting",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": true,
+            "category": "Personal",
+            "title": "Certificate Tracker",
+            "bodyText": "Created a large ASP.NET MVC web app while working at Hyland Software that monitors and manages the SSL certificates for all of Hyland's internal and external services. Consisted of a SQ Server database integrated with Entity Framework, controllers and a REST API in C#, and a frontend in Razor. Features include allowing users to have automatic emails sent to them when their certificates are expiring, and a dashboard that shows the status of all certificates, a custom Confluence page that is updated daily, a way for manual and automatic work orders to be created, and for certificate statuses to be fetched and updated daily. Gained a lot of experience with large-scale web apps and working with a large code base.",
+            "image": "static/media/projects/cert-tracker/cert-tracker.png",
+            "video": "static/media/projects/cert-tracker/cert-tracker.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/health-monitor"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C#",
+                    "color": "yellow"
+                },
+                {
+                    "text": ".NET",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Model-View-Controller",
+                    "color": "gray"
+                },
+                {
+                    "text": "Entity Framework",
+                    "color": "gray"
+                },
+                {
+                    "text": "SQL Server",
+                    "color": "gray"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "Large Code Bases",
+                    "color": "gray"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "Razor Pages",
+                    "color": "gray"
+                },
+                {
+                    "text": "Integrations",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "Log Viewer",
+            "bodyText": "Created a ASP.NET Razor Class Library while working at Hyland Software that can attach to other .NET projects as a user-friendly and easily accessible way to view the applications logs, and included a caching system. Consisted of carefully creating a distributable package that can be easily integrated into other projects, and a frontend that allows users to view logs, filter logs, and search logs. Gained experience with distributing packages and integrating with other projects.",
+            "image": "static/media/projects/log-viewer/log-viewer.png",
+            "video": "static/media/projects/log-viewer/log-viewer.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/health-monitor"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "C#",
+                    "color": "yellow"
+                },
+                {
+                    "text": ".NET",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Model-View-Controller",
+                    "color": "gray"
+                },
+                {
+                    "text": "Razor",
+                    "color": "gray"
+                },
+                {
+                    "text": "Razor Class Library",
+                    "color": "gray"
+                },
+                {
+                    "text": "Caching",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": false,
+            "category": "Personal",
+            "title": "GPT-4 Conversation",
+            "bodyText": "Created a simple small app that appears as a modal on my main website that acts as a chat conversation with OpenAI's GPT-4 model. The app is written in React and interacts with my own REST API that stores chats in my database and uses OpenAIs API.",
+            "image": "static/media/projects/gpt-convo/gpt-convo.png",
+            "video": "static/media/projects/gpt-convo/gpt-convo.mp4",
+            "links": [
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://btschwartz.com/more"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "AI",
+                    "color": "gray"
+                },
+                {
+                    "text": "OpenAI",
+                    "color": "green"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 1,
+            "is_featured": true,
+            "category": "Personal",
+            "title": "Chat with Saul",
+            "bodyText": "Created a a chat app with that allows users to interact with an AI chatbot that is pretending to be Saul Goodman. The app is written in Vite and interacts with my own Node.js REST API integrated with a storage service (chatengine.io) that handles user chats and interacts with OpenAI's API. I also integrated authentication with my REST APIs JWT system.",
+            "image": "static/media/projects/chat/chat.png",
+            "video": "static/media/projects/chat/chat.mp4",
+            "links": [
+                {
+                    "text": "Live",
+                    "is_modal": false,
+                    "data": "https://chat.btschwartz.com"
+                },
+                {
+                    "text": "GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/chat-with-saul"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "React",
+                    "color": "yellow"
+                },
+                {
+                    "text": "HTML",
+                    "color": "gray"
+                },
+                {
+                    "text": "CSS",
+                    "color": "gray"
+                },
+                {
+                    "text": "JavaScript",
+                    "color": "yellow"
+                },
+                {
+                    "text": "REST APIs",
+                    "color": "gray"
+                },
+                {
+                    "text": "OpenAI",
+                    "color": "green"
+                },
+                {
+                    "text": "Full Stack",
+                    "color": "gray"
+                },
+                {
+                    "text": "Node.js",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Express.js",
+                    "color": "gray"
+                },
+                {
+                    "text": "Vite",
+                    "color": "gray"
+                },
+                {
+                    "text": "Integrations",
+                    "color": "gray"
+                }
+            ],
+            "date_added": ""
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Multiprocessor Thread Library",
+            "bodyText": "Implemented a kernel-level thread library that supports the creation of threads and synchronization mechanisms including mutex and condition variable. Written in C++20.",
+            "image": "static/media/projects/482-p2/482p2.png",
+            "video": "static/media/projects/482-p2/482p2.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 482",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Concurrency",
+                    "color": "gray"
+                },
+                {
+                    "text": "Monitors",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Virtual Memory Pager",
+            "bodyText": "Implemented a kernel-level memory manager's system calls that support process creation / deletion / forking, memory allocation / deallocation, and fault handling. Used a least-recently-used eviction policy for swap-backed and file-backed pages. Maximized efficency by delaying work with a copy-on-write mechanism when handling process creation / forks.",
+            "image": "static/media/projects/482-p3/482p3.png",
+            "video": "static/media/projects/482-p3/482p3.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 482",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Memory Management",
+                    "color": "gray"
+                },
+                {
+                    "text": "Performance",
+                    "color": "gray"
+                },
+                {
+                    "text": "Address Space Safety",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Custom iPerf",
+            "bodyText": "Implemented iPerf, a common tool used to measure network bandwidth, with C++ sockets. The client mode sends TCP packets to a host for a specific amount of time, reporting bandwidth and RTT statistics. The server mode receives TCP packets and tracks network I/O during the lifetime of a connection.",
+            "image": "static/media/projects/489-p1/489p1.png",
+            "video": "static/media/projects/489-p1/489p1.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 489",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Network Programming",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Video Streaming with a CDN",
+            "bodyText": "Implemented an HTTP proxy for a video server that supports adaptive bitrate selection and a DNS load balancer that streams videos from the server closest to a client. The nameserver will select a video server based on geographical distance, then, after streaming begins, will adaptively change the bitrate based on throughput measurements.",
+            "image": "static/media/projects/489-p2/489p2.png",
+            "video": "static/media/projects/489-p2/489p2.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 489",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Network Programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Proxies",
+                    "color": "gray"
+                },
+                {
+                    "text": "Mininet",
+                    "color": "gray"
+                },
+                {
+                    "text": "DNS",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Network File Server",
+            "bodyText": "Implemented a multithreaded file server that supports concurrent operations to read, write, create and delete files / directories. Used the Boost library's upgradable reader/writer locks to maximize concurrency as threads are bound by slow network and disk I/O. Currently running this on one of my VPS's, ask me to try it out!",
+            "image": "static/media/projects/482-p4/482p4.png",
+            "video": "static/media/projects/482-p4/482p4.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                },
+                {
+                    "text": "Client GitHub",
+                    "is_modal": false,
+                    "data": "https://github.com/btschwartz12/file-server-client"
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 482",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Boost",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Concurrency",
+                    "color": "gray"
+                },
+                {
+                    "text": "Network Programming",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Reliable Transport Protocol",
+            "bodyText": "Implemented a transport-layer protocol similar to TCP, on top of UDP. Provides inorder, reliable delivery of UDP datagrams in the presence of events like packet loss, delay, corruption, duplication, and reordering. Written in C++, consists of a client and server that supports configurable window size for each. Also can configure to use selective ACKing or cumulative ACKing.",
+            "image": "static/media/projects/489-p3/489p3.png",
+            "video": "static/media/projects/489-p3/489p3.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 489",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Mininet",
+                    "color": "gray"
+                },
+                {
+                    "text": "Network Programming",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        },
+        {
+            "priority": 2,
+            "is_featured": false,
+            "category": "School",
+            "title": "Static Router",
+            "bodyText": "Implemented a simple router configured with a static routing table. Processes incoming ethernet frames, and forwards them to the correct interface. Handles IP forwarding, ARP requests/replys, ICMP messafes/replys, and queues packets waiting for outstanding ARP replies. Using a custom topology, supports the routing of HTTP packets to web servers with tools like wget/curl, traceroute, and ping.",
+            "image": "static/media/projects/489-p4/489p4.png",
+            "video": "static/media/projects/489-p4/489p4.mp4",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "is_modal": true,
+                    "data": {
+                        "title": "Private Repository",
+                        "body": "This project was part of the curriculum for a course I took, and to protect its integrity, I don't make my code public. However, I can share the code with you if you are interested in seeing it. Please contact me!"
+                    }
+                }
+            ],
+            "bubble": {
+                "exists": false
+            },
+            "tags": [
+                {
+                    "text": "University of Michigan",
+                    "color": "yellow"
+                },
+                {
+                    "text": "EECS 489",
+                    "color": "yellow"
+                },
+                {
+                    "text": "C++",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Mininet",
+                    "color": "gray"
+                },
+                {
+                    "text": "Network Programming",
+                    "color": "gray"
+                },
+                {
+                    "text": "Pox",
+                    "color": "gray"
+                }
+            ],
+            "date_added": "Added December 2023"
+        }
+    ]
+}

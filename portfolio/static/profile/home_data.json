@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "title": "Ben Schwartz",
+        "description": "TODO"
+    },
+    "greetings": "Hi, I'm Ben",
+    "animated_text": [
+        "I love to code",
+        "I build things for the web",
+        "I improve engineering systems"
+    ],
+    "about": [
+        "Graduate Student at the University of Michigan studying Computer Science.",
+        "Cybersecurity Teaching Assistant.",
+        "SDE Intern @ Censys.",
+        "Check out my dogs, then the stuff below!"
+    ],
+    "img_url": "static/media/home/picture-big.webp",
+    "logo_url": "static/media/logo.svg",
+    "buttons": [
+        {
+            "name": "Me",
+            "route": "/about",
+            "type": "route",
+            "id": "button_p"
+        },
+        {
+            "name": "Projects",
+            "route": "/projects",
+            "type": "route",
+            "id": "button_h"
+        },
+        {
+            "name": "Experience",
+            "route": "/experience",
+            "type": "route",
+            "id": "button_h"
+        },
+        {
+            "name": "Education",
+            "route": "/education",
+            "type": "route",
+            "id": "button_h"
+        },
+        {
+            "name": "Resume",
+            "route": "https://btschwartz.com/resume",
+            "type": "link",
+            "id": "button_h"
+        }
+    ]
+}

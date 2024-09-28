@@ -1,0 +1,39 @@
+{
+    "logo": {
+        "source": "static/media/logo.svg",
+        "height": 45,
+        "width": 50
+    },
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/",
+            "type": "section"
+        },
+        {
+            "title": "About",
+            "href": "/about",
+            "type": "section"
+        },
+        {
+            "title": "Education",
+            "href": "/education",
+            "type": "section"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience",
+            "type": "section"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects",
+            "type": "section"
+        },
+        {
+            "title": "Resume",
+            "href": "https://btschwartz.com/resume",
+            "type": "link"
+        }
+    ]
+}

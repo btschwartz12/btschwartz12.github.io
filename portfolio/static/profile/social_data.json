@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "name": "linkedin",
+            "href": "https://www.linkedin.com/in/ben-schwartz-1b700b225"
+        },
+        {
+            "name": "github",
+            "href": "https://github.com/btschwartz12"
+        }
+    ],
+    "navbar": {
+        "linkedin": "https://www.linkedin.com/in/ben-schwartz-1b700b225",
+        "github": "https://github.com/btschwartz12"
+    }
+}

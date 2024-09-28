@@ -1,0 +1,243 @@
+{
+    "meta": {
+        "title": "Ben Schwartz | About",
+        "description": "TODO"
+    },
+    "about": "Hello! My name is **Ben**, a software developer from Solon, OH. I love building things for the internet, mobile applications, integrated systems, and making them safe! My goal is to contribute to high-performing solutions that are secure, reliable, scalable, and able to evolve over time.\r\n\r\n\r\nI am currently a graduate student at the **University of Michigan** studying Computer Science and a teaching assistant for a cybersecurity course, planning to graduate in April 2025.\r\n\r\n\r\nI'm also going to be interning at Censys this summer, and I'm always looking for new opportunities to learn!",
+    "imageSource": "static/media/about/profile.webp",
+    "icons": [
+        {
+            "title": "Interests",
+            "items": [
+                {
+                    "title": "Baseball",
+                    "icon": "static/media/about/icons/baseball.png"
+                },
+                {
+                    "title": "Golf",
+                    "icon": "static/media/about/icons/golf.png"
+                },
+                {
+                    "title": "Teaching",
+                    "icon": "static/media/about/icons/teaching.png"
+                },
+                {
+                    "title": "Cleveland Sports",
+                    "icon": "static/media/about/icons/cleveland.png"
+                },
+                {
+                    "title": "This",
+                    "icon": "static/media/about/icons/tv.png"
+                },
+                {
+                    "title": "Dogs",
+                    "icon": "static/media/about/icons/dog.png"
+                },
+                {
+                    "title": "Passion Projects",
+                    "icon": "static/media/about/icons/personal-projects.png"
+                }
+            ]
+        },
+        {
+            "title": "Languages",
+            "items": [
+                {
+                    "title": "Python",
+                    "icon": "static/media/about/icons/python.png"
+                },
+                {
+                    "title": "Java",
+                    "icon": "static/media/about/icons/java.png"
+                },
+                {
+                    "title": "JavaScript",
+                    "icon": "static/media/about/icons/js.png"
+                },
+                {
+                    "title": "C / C++",
+                    "icon": "static/media/about/icons/c-plus-plus.svg"
+                },
+                {
+                    "title": "C #",
+                    "icon": "static/media/about/icons/c-sharp.svg"
+                },
+                {
+                    "title": "Swift",
+                    "icon": "static/media/about/icons/swift.svg"
+                },
+                {
+                    "title": "Motoko",
+                    "icon": "static/media/about/icons/icp.svg"
+                },
+                {
+                    "title": "PHP",
+                    "icon": "static/media/about/icons/php.svg"
+                },
+                {
+                    "title": "HTML / CSS",
+                    "icon": "static/media/about/icons/html_css.svg"
+                },
+                {
+                    "title": "SQL",
+                    "icon": "static/media/about/icons/sql.png"
+                },
+                {
+                    "title": "Bash",
+                    "icon": "static/media/about/icons/bash.png"
+                },
+                {
+                    "title": "Assembly",
+                    "icon": "static/media/about/icons/assembly.png"
+                },
+                {
+                    "title": "TypeScript",
+                    "icon": "static/media/about/icons/ts.svg"
+                },
+                {
+                    "title": "Go",
+                    "icon": "static/media/about/icons/go.svg"
+                }
+            ]
+        },
+        {
+            "title": "Frameworks & Technologies",
+            "items": [
+                {
+                    "title": "React",
+                    "icon": "static/media/about/icons/react.png"
+                },
+                {
+                    "title": "Nodejs",
+                    "icon": "static/media/about/icons/nodejs.png"
+                },
+                {
+                    "title": "Flask",
+                    "icon": "static/media/about/icons/python.png"
+                },
+                {
+                    "title": ".NET",
+                    "icon": "static/media/about/icons/dotnet.png"
+                },
+                {
+                    "title": "Bootstrap",
+                    "icon": "static/media/about/icons/bootstrap.svg"
+                },
+                {
+                    "title": "jQuery",
+                    "icon": "static/media/about/icons/jquery.svg"
+                },
+                {
+                    "title": "Entity Framework",
+                    "icon": "static/media/about/icons/ef.png"
+                }
+            ]
+        },
+        {
+            "title": "Platforms",
+            "items": [
+                {
+                    "title": "Chrome",
+                    "icon": "static/media/about/icons/chrome-extension.svg"
+                },
+                {
+                    "title": "MacOS",
+                    "icon": "static/media/about/icons/macos.png"
+                },
+                {
+                    "title": "Ubuntu",
+                    "icon": "static/media/about/icons/ubuntu.svg"
+                },
+                {
+                    "title": "Linux",
+                    "icon": "static/media/about/icons/linux.png"
+                },
+                {
+                    "title": "Windows",
+                    "icon": "static/media/about/icons/windows.svg"
+                },
+                {
+                    "title": "iOS",
+                    "icon": "static/media/about/icons/ios.svg"
+                },
+                {
+                    "title": "Azure",
+                    "icon": "static/media/about/icons/ado.svg"
+                },
+                {
+                    "title": "AWS",
+                    "icon": "static/media/about/icons/aws.svg"
+                }
+            ]
+        },
+        {
+            "title": "Tools",
+            "items": [
+                {
+                    "title": "Boomi",
+                    "icon": "static/media/about/icons/boomi.svg"
+                },
+                {
+                    "title": "Swagger",
+                    "icon": "static/media/about/icons/swagger.svg"
+                },
+                {
+                    "title": "Git",
+                    "icon": "static/media/about/icons/git.png"
+                },
+                {
+                    "title": "Docker",
+                    "icon": "static/media/about/icons/docker.png"
+                },
+                {
+                    "title": "Visual Studio",
+                    "icon": "static/media/about/icons/visual-studio.svg"
+                },
+                {
+                    "title": "Visual Studio Code",
+                    "icon": "static/media/about/icons/visual-studio-code.png"
+                },
+                {
+                    "title": "Xcode",
+                    "icon": "static/media/about/icons/xcode.png"
+                },
+                {
+                    "title": "GDB",
+                    "icon": "static/media/about/icons/gdb.svg"
+                },
+                {
+                    "title": "MySQL",
+                    "icon": "static/media/about/icons/mysql.png"
+                },
+                {
+                    "title": "Octopus Deploy",
+                    "icon": "static/media/about/icons/octopus.svg"
+                },
+                {
+                    "title": "Jenkins",
+                    "icon": "static/media/about/icons/jenkins.svg"
+                },
+                {
+                    "title": "Bitbucket",
+                    "icon": "static/media/about/icons/bitbucket.svg"
+                },
+                {
+                    "title": "Jira",
+                    "icon": "static/media/about/icons/jira.svg"
+                },
+                {
+                    "title": "Postman",
+                    "icon": "static/media/about/icons/postman.svg"
+                },
+                {
+                    "title": "SSMS",
+                    "icon": "static/media/about/icons/sqlserver.svg"
+                },
+                {
+                    "title": "Kubernetes",
+                    "icon": "static/media/about/icons/kubernetes.svg"
+                }
+            ]
+        }
+    ]
+}
